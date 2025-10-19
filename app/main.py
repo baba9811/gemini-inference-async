@@ -1,16 +1,16 @@
 import argparse
 import asyncio
 import os
-from pathlib import Path
-from typing import List, Dict, Any
-from dotenv import load_dotenv
-import pandas as pd
-from tqdm import tqdm
-import google.generativeai as genai
-from PIL import Image
 from io import BytesIO
+from pathlib import Path
+from typing import Any, Dict, List
 
+import google.generativeai as genai
+import pandas as pd
 from dataloader import load_fence_dataset
+from dotenv import load_dotenv
+from PIL import Image
+from tqdm import tqdm
 
 load_dotenv()
 
