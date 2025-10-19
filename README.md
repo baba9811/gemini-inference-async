@@ -22,7 +22,7 @@ Google Gemini 멀티모달 모델 비동기 추론 시스템 (체크포인트 �
 
 1. 저장소 클론:
 ```bash
-git clone <repository-url>
+git clone git@github.com:baba9811/gemini-inference-async.git
 cd gemini-inferene-async
 ```
 
